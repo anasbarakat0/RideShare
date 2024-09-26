@@ -1,9 +1,9 @@
 import 'package:flutter/material.dart';
 import 'package:geolocator/geolocator.dart';
-import 'package:rideshare_/pages/Authentication/welcome_screen.dart';
-import 'package:rideshare_/pages/home_screen.dart';
-import 'package:rideshare_/pages/onboarding/onBoarding_page.dart';
-import 'package:rideshare_/service/shared_prefrences/shared_pref.dart';
+import 'package:rideshare_/features/auth/presentation/view/welcome_screen.dart';
+import 'package:rideshare_/temp/pages/home_screen.dart';
+import 'package:rideshare_/temp/pages/onboarding/onBoarding_page.dart';
+import 'package:rideshare_/core/resources/shared_prefrences/shared_pref.dart';
 import 'package:shared_preferences/shared_preferences.dart';
 
 LocationPermission? permission;
